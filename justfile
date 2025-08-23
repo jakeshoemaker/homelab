@@ -1,0 +1,4 @@
+# justfile
+
+default:
+    @just --list
