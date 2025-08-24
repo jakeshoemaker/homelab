@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "git@github.com:jakeshoemaker/homelab.git"
+    repoURL: "https://github.com/jakeshoemaker/homelab.git"
     path: apps
     targetRevision: HEAD
   destination:
