@@ -1,0 +1,52 @@
+# Environment variables
+.env
+*.env
+
+# Generic secret files
+secrets.yaml
+secret.yaml
+secrets.yml
+secret.yml
+*.sops.yaml
+*.sops.yml
+
+# Cloud provider credentials
+aws_credentials.ini
+.aws/credentials
+gcp_credentials.json
+azure_credentials.json
+
+# Terraform state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Helm
+charts/
+*.tgz
+
+# Kustomize
+.kustomize/build/
+
+# General Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Common temporary files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
